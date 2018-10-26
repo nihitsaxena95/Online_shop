@@ -131,11 +131,12 @@ End point : '/trackOrder'
     "eslint-plugin-mocha": "^4.11.0",
     "eslint-plugin-react": "^7.2.1"
   }`
-##Following is the unit test case coverage, run following command to run test cases. 
+## Following is the unit test case coverage, run following command to run test cases. 
 
 `npm test`
 
-##Following is the request response structure of the application.
+## Following is the request response structure of the application.
+
 `
 {
 	"type" : "createOrderItem",
@@ -169,7 +170,9 @@ Output :
 		"message" : ""
 	}
 }
-------------------------------------------
+`
+------------------------------------
+`
 {
 	"type" : "buyItem",
 	"attributes" : {
@@ -194,7 +197,9 @@ Output :
 		"message" : ""
 	}
 }
-----------------------------------------
+`
+------------------------------------
+`
 {
 	"type" : "updateOrderInformation" ,
 	"attributes" : {
@@ -215,6 +220,7 @@ Output :
 	}
 }
 `
+
 ## Following are the sample outputs . 
 
 - create Order
